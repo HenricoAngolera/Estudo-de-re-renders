@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div>
       <Counter count={count} />
-      <button onClick={setCount((prev) => prev + 1)}>Incrementar</button>
+      <button onClick={() => setCount((prev) => prev + 1)}>Incrementar</button>
       <ItemList items={items} />
     </div>
   );
